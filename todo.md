@@ -1,0 +1,85 @@
+# Offene Aufgaben
+
+- [x] Prüfen, welche GitHub-Integration und Autorisierung für einen tatsächlichen Repository-Import verfügbar ist.
+- [x] Einen klaren GitHub-Import-Dialog auf der StreetForge-Hauptseite ergänzen.
+- [x] Das Zielrepository OuroborosCollective/StreetForge_Ouroboros vorbefüllen und serverseitig validieren.
+- [x] Den sicheren Übergabepunkt für Branch-Erstellung, Projekt-Upload und Draft Pull Request definieren.
+- [x] Die durch das Server-Upgrade entstandenen Routen-Konflikte auflösen, ohne die StreetForge-Spieloberfläche zu verlieren.
+- [x] Eine GitHub-Authentifizierung für den Serverfluss verbinden; Zugangsdaten bleiben ausschließlich serverseitig.
+- [x] Server-Endpunkt und Test für Branch-Erstellung, Projekt-Upload und Draft-Pull-Request ergänzen.
+- [x] Spiel, Dialog und Importweg sichtbar prüfen.
+- [x] Ein versioniertes Domänenmodell für Districts, Weltseeds, NPCs, Quests, Items, Skills, Drops, Gangs und Reviere dokumentieren.
+- [x] Die Datenbank um Profiles, Gang-Mitgliedschaften, Territorien, Fortschritt und benutzerdefinierte Asset-Metadaten erweitern.
+- [x] Eine modulare Content-Registry für prozedurale District- und Encounter-Definitionen schaffen.
+- [x] Prozedurale Open-World-Zonen mit dynamischen Begegnungen, NPCs, Quests und Loot in den Spielkern integrieren.
+- [x] Ein unbegrenztes, kurvenbasiertes Level- und Skillfortschrittssystem mit gespeicherten Meilensteinen implementieren.
+- [x] Gründung, Beitritt und Besitz eines Gang-Reviers einschließlich Freischaltlogik für Reviermodelle umsetzen.
+- [x] Sichere S3-Modell-Uploads für freigeschaltete Charakter- und Reviermodelle mit Metadaten und Eigentumsprüfung vorbereiten.
+- [x] Einen nur für Admins erreichbaren Bereich für Content, Quests, NPCs, Items, Gangs und LLM-Anbieteroptionen implementieren.
+- [x] Tests für Fortschritt, Zugriffsrechte, Upload-Freischaltung, Content-Verträge und GitHub-Import ergänzen.
+- [x] GTA-inspirierte, fiktionalisierte Waffenkategorien samt Item-, Drop- und Skillbaumdaten als Content-Module definieren.
+- [x] Separate Meisterschafts-XP je Waffenkategorie implementieren; nur aktive Nutzung erhöht diese Werte und beeinflusst den Kategorien-Schaden serverseitig.
+- [x] Auktionshaus-Tabellen und serverautoritäre Listing-, Gebots-, Kauf- und Abwicklungslogik implementieren.
+- [x] Spieloberfläche um Waffenkategorie, Meisterschaftsfortschritt, Beutevorschau und Auktionshauszugang ergänzen.
+- [x] GitHub-Import-Schreibpfad mit gemockter Branch-, Commit- und Draft-PR-Abfolge per Vitest nachweisen.
+- [x] Echten Quest- und NPC-Interaktionsfluss mit mehreren betretbaren District-Zonen ergänzen.
+- [x] Gang-Beitritt zu bestehenden Gangs mit Serververfahren und Spieloberfläche ergänzen.
+- [x] Adminbereich um explizite Gang- sowie gefilterte Quest-, NPC- und Item-Verwaltung erweitern.
+- [x] Rechte-, Asset-Freischaltungs- und Content-Registry-Verträge mit Service-Tests nachweisen.
+- [x] Waffenmeisterschafts-Schadensbonus in den serverautoritären Kampfschaden integrieren.
+- [x] Aktives HUD um klare Waffenkategorie und zuletzt erhaltene Beute erweitern.
+- [x] Mobile Geräteklasse clientseitig erkennen und die Spieloberfläche für Android-Touchgeräte anpassen.
+- [x] HUD, Menüs und Dialoge mit dynamischen Viewport- und Safe-Area-Größen für schmale Android-Bildschirme versehen.
+- [x] Touchfreundliche Aktionsflächen und eine mobile Bedienleiste ergänzen, ohne Desktop-Tastatursteuerung zu beeinträchtigen.
+- [x] Android-Ansichten in Hoch- und Querformat visuell prüfen und die Ergebnisse dokumentieren.
+- [x] Accountstatus mit Manus-OAuth in einen klaren Charakterauswahl-Einstieg überführen.
+- [x] Persistente Charaktere mit Erstellung, Archetyp, Rufname und aktiver Auswahl pro Account modellieren.
+- [x] Charakterauswahl, Profilladen und expliziten Spielbeitritt in die Spieloberfläche integrieren.
+- [x] Deterministische Serverkern- und optional abgegrenzte P2P-Transportarchitektur für Lastverteilung dokumentieren.
+- [x] Charakterfluss, Autorisierung und P2P-Vertrauensgrenzen mit Tests absichern.
+- [x] Eine reproduzierbare Canvas-Laufzeitprüfung mit WebGL-Fallback- und Szenen-Health-Checks ergänzen.
+- [x] Eine E2E-Smoke-Suite für Startscreen, Spielbeitritt, HUD und Operationskonsole implementieren.
+- [x] Eine ausschließlich für Admins sichtbare Spielvorschau im Kontrollraum ergänzen.
+- [x] Den GitHub-Projektsnapshot um sämtliche textbasierten Design- und Projektdateien aktualisieren und Vollständigkeit prüfen.
+- [x] Offizielle, öffentlich verfügbare und lizenzrechtlich klare Babylon-Modelle recherchieren, dokumentieren und nur bei passender Spielrolle referenzieren.
+- [x] Echte District-Transitionen sowie serverseitige Questannahme, Questfortschritt und NPC-Interaktionen implementieren und per Integrationstest prüfen.
+- [x] Charaktereigentum, aktive Auswahl und autorisierten Spielbeitritt mit geschützten Servertests absichern.
+- [x] Expliziten Canvas-Health-Check und eine benutzerfreundliche WebGL-Unsupported-Fallbackansicht implementieren und testen.
+- [ ] Die E2E-Suite um den authentifizierten Charaktererstellungs-, Auswahl- und Spielbeitrittsfluss erweitern.
+- [x] Datenverträge für City-Zustand, NPC-Routinen, Ökosysteme, Story-Knoten, Housing, Tutorial und Premium-Angebote definieren.
+- [x] Dynamische District-Zustände, NPC-Routinen, Ereignisse und Ökosystem-Signale in die sichtbare Spielwelt integrieren.
+- [x] Verzweigte Story-Quests, Housing-Freischaltung, Markt-Hooks und ein geführtes Spieler-Tutorial umsetzen.
+- [x] Adminverwaltung für Premium-Katalog, Freischaltregeln und unkonfigurierte Zahlungsanbieter-Adapter ergänzen.
+- [ ] City-, Story-, Housing-, Tutorial- und Premiumrechte mit Unit- und E2E-Tests absichern.
+- [x] Eine vollständige Systemdokumentation zu Architektur, City-Systemen, Betrieb, Tests, Assetlizenzen und GitHub-Übergabe erstellen.
+- [ ] Den finalen Projektsnapshot aktualisieren und vor der Branch-/Draft-PR-Erstellung die explizite Benutzerbestätigung einholen.
+- [x] Alle sichtbaren Funktionen auf echte persistente oder serverautorisierte Zustände prüfen; Mock-, Stub- und Fassadenlogik entfernen oder als nicht verfügbar ausblenden.
+- [x] Einen echten Todes-, Respawn- und Erklärungsfluss implementieren, der den Charakter nach einer Niederlage sicher zurücksetzt und jede Sackgasse verhindert.
+- [x] Persistente Chatkanäle für Districts und Gangs mit Mitgliedschafts- und Moderationsprüfung implementieren.
+- [x] Teamfinder, Gruppenbildung und Dungeon-Einsätze mit serverautorisiertem Mitgliedschaftsstatus implementieren.
+- [x] Loot- und XP-Verteilung ausschließlich aus realen Gruppenmitgliedern und abgeschlossenen Dungeon-Ereignissen berechnen.
+- [ ] Persistente Erfolge und Spielerstatistiken samt einlösbarer, servergeprüfter Fortschrittsbedingungen implementieren.
+- [ ] Direkte Tastatur- und Touchsteuerung des Charakters nach erfolgreichem Spielbeitritt mit sichtbarer Eingabehilfe prüfen und absichern.
+- [ ] Inventar- und Asset-Slots für Waffe, Kopf, Oberkörper, Handschuhe, Beine, Schuhe, Cape, Schulter und Nebenhand persistent modellieren sowie als sichtbaren Charakterzustand auswerten.
+- [ ] Serverautorisierte Geldteilung zwischen tatsächlichen Gruppenmitgliedern mit Saldenprüfung und Transferbeleg implementieren.
+- [x] Den itch.io-Wrapper mit öffentlicher HTTPS-Client-URL, konfigurierbarem Embed-Parameter und Browser-Smoke-Test absichern.
+- [x] Lizenzklare, nicht-MIDI-basierte Hintergrundmusik und Soundeffekte beschaffen, als Web-Assets bereitstellen und ihre Quellen dokumentieren.
+- [x] Einen spielzustandsgebundenen Audiomanager mit Einwilligung, Stummschaltung und zugänglichen Lautstärkeregeln implementieren.
+- [x] Ein persistentes Territoriumsmodell für neutrale Districts, Gildenreviere, Raider-Gebiete, sichere Rückzugsorte und Polizeidistrikte mit eindeutigen Kartenfarben ergänzen.
+- [x] Serverautorisierte District-Reisen samt Zutritts-, Risiko- und Präsenzprüfung implementieren.
+- [x] Eine interaktive Ingame-Weltkarte mit Legende, Filterung, Auswahlzustand und direkter District-Navigation implementieren.
+- [x] Deterministische Stadtintelligenz für territoriale Bedrohung, Gildenpräsenz, Raiderdruck, Schutzräume und Polizeipatrouillen implementieren und testen.
+- [x] District-Klassen persistent in den City-Zustand migrieren und `world.map` ausschließlich aus servergeschriebenen Zuständen plus Gang-Claims ableiten.
+- [x] District-Reisen mit persistierten Gang-Claims und serverseitiger Risikoentscheidung vollständig prüfen sowie durch Service-Tests absichern.
+- [x] Weltkarte um eine echte Filterung nach Kontrolle, Risiko und möglichem Zutritt erweitern und ihre Interaktion testen.
+- [x] Kollisionsbewusste NPC-Wegfindung mit servergespeicherten Routen, Hindernisprüfung und alternativen Wegpunkten implementieren.
+- [x] Persistente NPC-Bedürfnisse für Nahrung, Geld, soziale Bindung und Sicherheit modellieren sowie deterministisch auswerten.
+- [ ] NPC-gesteuerte Zivilisations- und Ganglogik für Gründungen, Führung, Krieg, Frieden, Revierkämpfe, Politikvoten und Führungswechsel implementieren.
+- [ ] Einen einmaligen, serverautorisierten Social-Share-Bonus mit persistiertem Gutschriftbeleg und sichtbarer Share-Aktion implementieren.
+- [ ] Den aktuellen StreetForge-Snapshot jetzt nach OuroborosCollective/StreetForge_Ouroboros übertragen und einen Draft Pull Request erstellen.
+- [x] Serverautorisiertes Kopfgeldsystem mit Missionen, Zielstatus, Grundbelohnung, Spielerzuschlägen und atomarer Ausschüttung implementieren.
+- [x] Ingame-Menüs für Zivilisationszustand, verfügbare Kopfgeldmissionen, Belohnungsaufstockung und abgeschlossene Prämienansicht integrieren.
+- [x] Einen deterministischen 10-Hz-Kappa-Simulationsvertrag mit dem festen Ganzzahlmaßstab 1.000.000 implementieren und jede Fließkommaoperation aus den autoritativen Spielregeln ausschließen.
+- [x] Eine konfigurierbare, dokumentierte Serveradaptergrenze für die spätere Ausführung des 10-Hz-Simulationskerns auf einem eigenen Server implementieren.
+- [x] Service-Test für District-Reisen mit persistiertem Gang-Claim, Risiko und Lockdown-Entscheidung ergänzen.
+- [x] Interaktionsvertrag für die Weltkartenfilterung beim Umschalten zwischen Kontrolle, Risiko und zulässigen Routen ergänzen.
