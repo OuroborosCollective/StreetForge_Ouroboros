@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786481220753,
+      "tag": "0000_mighty_crystal",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786481472430,
+      "tag": "0001_funny_energizer",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786483465233,
+      "tag": "0002_abnormal_cassandra_nova",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786485177181,
+      "tag": "0003_safe_rocket_racer",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1786485720432,
+      "tag": "0004_brainy_norman_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1786485765072,
+      "tag": "0005_empty_millenium_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1786486030139,
+      "tag": "0006_flaky_katie_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1786486514153,
+      "tag": "0007_elite_hobgoblin",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1786487560071,
+      "tag": "0008_absent_selene",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1786488030980,
+      "tag": "0009_clever_dracula",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1786490497452,
+      "tag": "0010_organic_prima",
+      "breakpoints": true
+    }
+  ]
+}
